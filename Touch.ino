@@ -5,6 +5,8 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(touchRead(4));  // get value of Touch 0 pin = GPIO 4
+  Serial.println(touchRead(13));  // get value of Touch 0 pin = GPIO 13
+  Serial.println(touchRead(12));  // get value of Touch 0 pin = GPIO 13
+  Serial.println(touchRead(14));  // get value of Touch 0 pin = GPIO 13
   delay(1000);
 }
